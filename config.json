@@ -1,0 +1,19 @@
+{
+  "name": "Kauê Andrade Padilha",
+  "bio": "Desenvolvedor Frontend",
+  "githubProfile": "https://github.com/Kaue-Dev.png",
+  "playlists": {
+    "jogos": [
+      { "title": "Red Dead Redemption 2 | Trailer", "url": "https://youtu.be/gmA6MrX81z4?si=Lu05NZ5RrR8w-ZCb", "thumbnail": "https://i.ytimg.com/vi/gmA6MrX81z4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDYvWBn9cERrvEwpLEjG1RQ2kUkAw" },
+      { "title": "Minecraft | Trailer", "url": "https://youtu.be/MmB9b5njVbA?si=eqAgaBWbuhb5HZn6", "thumbnail": "https://i.ytimg.com/vi/MmB9b5njVbA/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYOSBlKCQwDw==&rs=AOn4CLDdevtfc8spD3uru3xHWWDhM_tX1A" },
+      { "title": "God Of War | Trailer", "url": "https://youtu.be/FyIwEFXOcaE?si=mLchHPw5TANxNuu7", "thumbnail": "https://i.ytimg.com/vi/FyIwEFXOcaE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCWgKqL-mf4TRnZ4G77YHqtFjAtNA" },
+      { "title": "Genshin Impact | Trailer", "url": "https://youtu.be/TAlKhARUcoY?si=zuLrlc-Fc35xTSPz", "thumbnail": "https://i.ytimg.com/vi/TAlKhARUcoY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAbgDsAI2j-2QcGkBvJtsRbH4ZNjQ" }
+    ],
+    "animes": [
+      { "title": "Demon Slayer", "url": "https://youtu.be/VQGCKyvzIM4?si=GuhtMRUu3vqwIjnz", "thumbnail": "https://i.ytimg.com/vi/VQGCKyvzIM4/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYNiBYKHIwDw==&rs=AOn4CLBgK14i4GdOYYOkTCpc_ynKfLxxyw" },
+      { "title": "Hunter X Hunter", "url": "https://youtu.be/d6kBeJjTGnY?si=oIJWcAl2tF-bY_Vi", "thumbnail": "https://i.ytimg.com/vi/d6kBeJjTGnY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBnS7ew0LbByPlDATPE1gmaC8gvvg" },
+      { "title": "Solo Leveling", "url": "https://youtu.be/ujv2fLp3lU8?si=1IcCSy78dpIx5i9c", "thumbnail": "https://i.ytimg.com/vi/ujv2fLp3lU8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC_jU0ID0x6VkLmWlJEHjLBQbCkWg" },
+      { "title": "Jujutsu Kaisen", "url": "https://youtu.be/9sLu3bUBuOg?si=LhkUCZeOcmAuGmpo", "thumbnail": "https://i.ytimg.com/vi/9sLu3bUBuOg/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAQf7W3Rf1ZtlXC1fL4dU6-kkn16g" }
+    ]
+  }
+}
