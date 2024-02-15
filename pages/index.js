@@ -9,6 +9,8 @@ import Menu from "../src/components/Menu";
 import { CSSReset } from "../src/components/CSSReset";
 import { StyledTimeline } from "../src/components/Timeline";
 
+import { useState } from "react";
+
 const StyledHeader = styled.div`
   .banner-div {
     position: relative;
@@ -35,19 +37,16 @@ const StyledHeader = styled.div`
 `;
 
 function HomePage() {
+
+  const [valorDoFiltro, setValorDoFiltro] = useState('')
+
   return (
     <>
       <CSSReset />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          flex: 1,
-        }}
-      >
-        <Menu />
+      <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
+        <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
         <Header banner={banner} />
-        <Timeline playlists={config.playlists} youtubers={config.youtubers} />
+        <Timeline playlists={config.playlists} youtubers={config.youtubers} searchValue={valorDoFiltro} />
       </div>
     </>
   );
@@ -70,7 +69,7 @@ function Header(props) {
   );
 }
 
-function Timeline(props) {
+function Timeline({searchValue, ...props}) {
   const playlistNames = Object.keys(props.playlists);
   const youtuberNames = Object.keys(props.youtubers)
   return (
@@ -78,12 +77,16 @@ function Timeline(props) {
       {playlistNames.map((playlistName) => {
         const videos = props.playlists[playlistName];
         return (
-          <section>
+          <section key={playlistName}>
             <h2>{playlistName}</h2>
             <div>
-              {videos.map((video) => {
+              {videos.filter((video) => {
+                const titleNormalized = video.title.toLowerCase();
+                const searchValueNormalized = searchValue.toLowerCase();
+                return titleNormalized.includes(searchValueNormalized)
+              }).map((video) => {
                 return (
-                  <a href={video.url} target="_blank">
+                  <a href={video.url} target="_blank" key={video.title}>
                     <img src={video.thumbnail} />
                     <span>{video.title}</span>
                   </a>
