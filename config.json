@@ -4,10 +4,10 @@
   "githubProfile": "https://github.com/Kaue-Dev.png",
   "playlists": {
     "jogos": [
-      { "title": "Red Dead Redemption 2 | Trailer", "url": "https://youtu.be/gmA6MrX81z4?si=Lu05NZ5RrR8w-ZCb", "thumbnail": "https://i.ytimg.com/vi/gmA6MrX81z4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDYvWBn9cERrvEwpLEjG1RQ2kUkAw" },
-      { "title": "Minecraft | Trailer", "url": "https://youtu.be/MmB9b5njVbA?si=eqAgaBWbuhb5HZn6", "thumbnail": "https://i.ytimg.com/vi/MmB9b5njVbA/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYOSBlKCQwDw==&rs=AOn4CLDdevtfc8spD3uru3xHWWDhM_tX1A" },
-      { "title": "God Of War | Trailer", "url": "https://youtu.be/FyIwEFXOcaE?si=mLchHPw5TANxNuu7", "thumbnail": "https://i.ytimg.com/vi/FyIwEFXOcaE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCWgKqL-mf4TRnZ4G77YHqtFjAtNA" },
-      { "title": "Genshin Impact | Trailer", "url": "https://youtu.be/TAlKhARUcoY?si=zuLrlc-Fc35xTSPz", "thumbnail": "https://i.ytimg.com/vi/TAlKhARUcoY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAbgDsAI2j-2QcGkBvJtsRbH4ZNjQ" }
+      { "title": "Red Dead Redemption 2", "url": "https://youtu.be/gmA6MrX81z4?si=Lu05NZ5RrR8w-ZCb", "thumbnail": "https://i.ytimg.com/vi/gmA6MrX81z4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDYvWBn9cERrvEwpLEjG1RQ2kUkAw" },
+      { "title": "Minecraft", "url": "https://youtu.be/MmB9b5njVbA?si=eqAgaBWbuhb5HZn6", "thumbnail": "https://i.ytimg.com/vi/MmB9b5njVbA/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYOSBlKCQwDw==&rs=AOn4CLDdevtfc8spD3uru3xHWWDhM_tX1A" },
+      { "title": "God Of War", "url": "https://youtu.be/FyIwEFXOcaE?si=mLchHPw5TANxNuu7", "thumbnail": "https://i.ytimg.com/vi/FyIwEFXOcaE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCWgKqL-mf4TRnZ4G77YHqtFjAtNA" },
+      { "title": "Genshin Impact", "url": "https://youtu.be/TAlKhARUcoY?si=zuLrlc-Fc35xTSPz", "thumbnail": "https://i.ytimg.com/vi/TAlKhARUcoY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAbgDsAI2j-2QcGkBvJtsRbH4ZNjQ" }
     ],
     "animes": [
       { "title": "Demon Slayer", "url": "https://youtu.be/VQGCKyvzIM4?si=GuhtMRUu3vqwIjnz", "thumbnail": "https://i.ytimg.com/vi/VQGCKyvzIM4/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYNiBYKHIwDw==&rs=AOn4CLBgK14i4GdOYYOkTCpc_ynKfLxxyw" },
@@ -15,5 +15,11 @@
       { "title": "Solo Leveling", "url": "https://youtu.be/ujv2fLp3lU8?si=1IcCSy78dpIx5i9c", "thumbnail": "https://i.ytimg.com/vi/ujv2fLp3lU8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC_jU0ID0x6VkLmWlJEHjLBQbCkWg" },
       { "title": "Jujutsu Kaisen", "url": "https://youtu.be/9sLu3bUBuOg?si=LhkUCZeOcmAuGmpo", "thumbnail": "https://i.ytimg.com/vi/9sLu3bUBuOg/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAQf7W3Rf1ZtlXC1fL4dU6-kkn16g" }
     ]
-  }
+  },
+  "youtubers": [
+    { "name": "Alanzoka", "url": "https://www.youtube.com/@alanzoka", "ytProfile": "https://yt3.googleusercontent.com/ytc/AIf8zZRQ7UOrTTcLDMgK8NPCfqw1KXKOoKHZz9qUhBnTuA=s160-c-k-c0x00ffffff-no-rj" },
+    { "name": "Cellbit", "url": "https://www.youtube.com/@CellBits", "ytProfile": "https://yt3.googleusercontent.com/k2Y-uLTQ16UjB6-ScXpNUc6zokiFu8GULNcN5_N7xqiMi9SrYFBkqpV20FIn9PBfkRy8TAwKeQ=s160-c-k-c0x00ffffff-no-rj" },
+    { "name": "BRKsEdu", "url": "https://www.youtube.com/@BRKsEDU", "ytProfile": "https://yt3.googleusercontent.com/ytc/AIf8zZTagMAgyAKzasy5DHYvLS9atvuejb4GbWYM8LSRsA=s160-c-k-c0x00ffffff-no-rj" },
+    { "name": "DMenor11", "url": "https://www.youtube.com/@DMenor11", "ytProfile": "https://yt3.googleusercontent.com/GPRHpWalKrF3HUML0Ia4hWJ13ZuAsIcf4XtB2Qw99WGQkODMPbiHZ47zGwsbRwTFqWIRXF1-oQ=s160-c-k-c0x00ffffff-no-rj" }
+  ]
 }

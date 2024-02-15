@@ -9,9 +9,9 @@ const StyledMenu = styled.header`
   border: 1px solid ${({ theme }) => theme.borderBase || "#e5e5e5"};
   align-items: center;
   padding: 0 16px;
-  gap: 16px;
   position: fixed;
   width: 100%;
+  z-index: 2;
   .logo {
     width: 100%;
     max-width: 80px;
