@@ -23,6 +23,13 @@ export const StyledTimeline = styled.div`
     padding: 0;
     overflow: hidden;
     padding: 16px;
+    div::-webkit-scrollbar {
+      background-color: ${({ theme }) => theme.backgroundLevel1};
+      border: 1px solid ${({ theme }) => theme.borderBase};
+    }
+    div::-webkit-scrollbar-thumb {
+      background-color: ${({ theme }) => theme.borderBase}; 
+    }
     div { 
       width: calc(100vw - 16px * 4);
       display: grid;

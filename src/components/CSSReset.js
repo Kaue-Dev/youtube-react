@@ -10,6 +10,14 @@ export const CSSReset = createGlobalStyle`
   body {
     font-family: sans-serif;
     overflow-x: hidden;
+    background-color: ${({ theme }) => theme.backgroundBase};
+    color: ${({ theme }) => theme.textColorBase};
+  }
+  body::-webkit-scrollbar {
+    background-color: ${({ theme }) => theme.backgroundLevel1};
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.borderBase}; 
   }
   /* NextJS */
   html {

@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import Search from "./Search";
+import ThemeSwitch from "./ThemeSwitch";
 
 const StyledMenu = styled.header`
   display: flex;
   flex-direction: row;
   height: 56px;
   justify-content: space-between;
-  background-color: ${({ theme }) => theme.backgroundLevel1 || "#FFFFFF"};
+  background-color: ${({ theme }) => theme.backgroundBase || "#FFFFFF"};
   border: 1px solid ${({ theme }) => theme.borderBase || "#e5e5e5"};
   align-items: center;
   padding: 0 16px;
@@ -32,6 +33,7 @@ export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
         <Logo />
       </div>
       <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
+      <ThemeSwitch />
     </StyledMenu>
   );
 }

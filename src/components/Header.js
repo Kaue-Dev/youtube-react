@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Image from "next/image";
 import config from "../../config.json";
 
 const StyledHeader = styled.div`
@@ -11,6 +10,8 @@ const StyledHeader = styled.div`
     overflow: hidden;
     padding: 0;
     margin: 0;
+    background-size: cover;
+    background-position: center;
   }
   .user-info img {
     width: 80px;
@@ -27,12 +28,18 @@ const StyledHeader = styled.div`
   }
 `;
 
+const StyledBanner = styled.div`
+  background-image: url(${({ bg }) => bg});
+  height: 230px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+`;
+
 export default function Header(props) {
   return (
     <StyledHeader>
-      <div className="banner-div">
-        <Image src={props.banner} alt="Banner" layout="responsive" priority={true} />
-      </div>
+      <StyledBanner bg={props.banner} />
       <section className="user-info">
         <img src={config.githubProfile} alt="Foto Perfil" />
         <div>

@@ -5,7 +5,7 @@ import { FaSearch } from "react-icons/fa";
 const StyledSearch = styled.div`
   display: flex;
   flex-direction: row;
-  border: 1px solid #a8a8a8;
+  border: 1px solid ${({ theme }) => theme.borderBase};
   max-width: 500px;
   width: 100%;
   overflow: hidden;
@@ -29,7 +29,7 @@ const StyledSearch = styled.div`
     border: none;
     background-color: ${({ theme }) => theme.backgroundLevel2};
     box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
-    border-left: 1px solid #a8a8a8;
+    border-left: 1px solid ${({ theme }) => theme.borderBase};
     width: 40px;
     height: 40px;
     display: flex;
@@ -43,7 +43,6 @@ const StyledSearch = styled.div`
 `;
 
 export default function Search({ valorDoFiltro, setValorDoFiltro }) {
-
   const setValorDaBusca = setValorDoFiltro
   const valorDaBusca = valorDoFiltro
 
