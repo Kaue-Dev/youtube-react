@@ -1,13 +1,17 @@
-import React from "react"
+import React, { useState } from "react"
 
-const coloModeContext = React.createContext({
-  mode: "dark"
+export const colorModeContext = React.createContext({ 
+  mode: "", 
+  setMode: () => alert('Você precisa me configurar primeiro!')
 })
 
-export default function ColorModeProvider({ children }) {
+export default function ColorModeProvider({ children, initialMode }) {
+
+  const [mode, setMode] = useState(initialMode)
+
   return (
-    <coloModeContext.Provider>
+    <colorModeContext.Provider value={{ mode: mode, setMode: setMode }}>
       {children}
-    </coloModeContext.Provider>
+    </colorModeContext.Provider>
   )
 }

@@ -1,9 +1,11 @@
+import React from "react";
 import styled from "styled-components";
 import { MdSunny } from "react-icons/md";
 import { IoMdMoon } from "react-icons/io";
+import { colorModeContext } from "./ColorMode";
 
 const StyledSwitch = styled.div`
-  background-color: #333333;
+  background-color: ${({ theme }) => theme.borderBase};
   border: 0;
   padding: 3px;
   font-size: 12px;
@@ -47,18 +49,21 @@ const StyledSwitch = styled.div`
 `;
 
 export default function DarkModeSwitch() {
+
+  const context = React.useContext(colorModeContext)
+
   return (
     <StyledSwitch>
       <input
         id="darkmode"
         type="checkbox"
         onChange={() => {
-          
+          context.mode === 'dark' ? context.setMode('light') : context.setMode('dark')
         }}
       />
       <label htmlFor="darkmode" className="darkmode-switch">
-        <span><IoMdMoon/></span>
         <span><MdSunny/></span>
+        <span><IoMdMoon/></span>
       </label>
     </StyledSwitch>
   );
