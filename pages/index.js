@@ -16,7 +16,8 @@ const StyledContainer = styled.div`
 `
 
 const API_URL = `https://api.unsplash.com/search/photos`
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY
+const API_KEY = `CrpmHYm4qVWvy3dNA2LIwCfDPqmzNxk8I1U2M23jUUE`
+//process.env.NEXT_PUBLIC_API_KEY
 
 export default function HomePage() {
   const [valorDoFiltro, setValorDoFiltro] = useState('')
@@ -41,7 +42,7 @@ export default function HomePage() {
     <>
       <StyledContainer>
         <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
-        <Header banner={imagesMapped.length > 0 ? imagesMapped[1] : bannerDefault} />
+        <Header banner={imagesMapped.length > 0 ? imagesMapped[0] : bannerDefault} />
         <Timeline playlists={config.playlists} youtubers={config.youtubers} searchValue={valorDoFiltro} />
       </StyledContainer>
     </>

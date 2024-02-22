@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import ColorModeProvider, { colorModeContext } from "../src/components/ColorMode";
-import React, { useState } from "react";
+import React from "react";
 
 const theme = {
   light: {
