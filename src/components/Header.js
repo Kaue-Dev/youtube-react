@@ -31,7 +31,6 @@ const StyledHeader = styled.div`
 const StyledBanner = styled.div`
   background-image: url(${({ bg }) => bg});
   height: 230px;
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 `;

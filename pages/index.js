@@ -1,6 +1,5 @@
 import config from "../config.json";
 import styled from "styled-components";
-import bannerDefault from '../banner.jpg'
 import axios from "axios";
 // Components
 import Menu from "../src/components/Menu";
@@ -17,7 +16,6 @@ const StyledContainer = styled.div`
 
 const API_URL = `https://api.unsplash.com/search/photos`
 const API_KEY = `CrpmHYm4qVWvy3dNA2LIwCfDPqmzNxk8I1U2M23jUUE`
-//process.env.NEXT_PUBLIC_API_KEY
 
 export default function HomePage() {
   const [valorDoFiltro, setValorDoFiltro] = useState('')
@@ -36,13 +34,12 @@ export default function HomePage() {
   }, [])
 
   const imagesMapped = images.map(image => image.urls.small)
-  //const randomIndex = Math.floor(Math.random() * images.length)
 
   return (
     <>
       <StyledContainer>
         <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
-        <Header banner={imagesMapped.length > 0 ? imagesMapped[0] : bannerDefault} />
+        <Header banner={imagesMapped[6]} />
         <Timeline playlists={config.playlists} youtubers={config.youtubers} searchValue={valorDoFiltro} />
       </StyledContainer>
     </>
